@@ -19,9 +19,7 @@ The main objectives of frequency planning are:
 
 The frequency reuse factor is represented by:
 
-[
-N = i^2 + ij + j^2
-]
+$N = i^2 + ij + j^2$
 
 where:
 
@@ -30,21 +28,15 @@ where:
 
 The co-channel reuse ratio is:
 
-[
+$$
 Q = \sqrt{3N}
-]
+$$
 
 A larger cluster size reduces interference but also decreases capacity, while a smaller cluster size increases capacity but may increase interference.
 
----
 
 ## MATLAB Simulation for Frequency Planning in Cellular Systems
 
-### Aim
-
-To simulate frequency planning in a cellular system using hexagonal cells and demonstrate frequency reuse patterns.
-
----
 
 ### MATLAB Program
 
@@ -116,18 +108,7 @@ hold off;
 
 ## Output
 
-The simulation displays:
-
-* A cellular layout using hexagonal cells
-* Frequency labels for each cell
-* Repetition of frequency groups showing frequency reuse
-
-Example reuse pattern:
-
-```text
-A B C D E F G
-A B C D E F G
-```
+<img width="423" height="396" alt="image" src="https://github.com/user-attachments/assets/c8b0e825-e671-4a39-8db9-8a762a46a178" />
 
 ---
 
@@ -150,6 +131,3 @@ A B C D E F G
 
 ---
 
-## Conclusion
-
-The MATLAB simulation demonstrates the concept of frequency planning and frequency reuse in cellular systems. By assigning different frequencies to adjacent cells and reusing them in distant cells, cellular systems can efficiently utilize limited spectrum resources while minimizing interference.
